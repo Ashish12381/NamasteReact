@@ -4,7 +4,9 @@
   "description": "This is namaste react",
   
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start":"npx parcel index.html",
+    "build":"npx build index.html"
   },
   "repository": {
     "type": "git",

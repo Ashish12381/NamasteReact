@@ -4,8 +4,10 @@ import { createRoot } from "react-dom/client";
 
 const heading = React.createElement(
   "h1",
-  { id: "heading" },
+  { id: "heading" ,
+className:'header'},
   "Hello from react"
 );
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
+
