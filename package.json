@@ -2,11 +2,10 @@
   "name": "namastereact",
   "version": "1.0.0",
   "description": "This is namaste react",
-  
   "scripts": {
     "test": "jest",
-    "start":"npx parcel index.html",
-    "build":"npx build index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -26,10 +25,14 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.22.3"
   },
-  "browserlist":[
+  "browserlist": [
     " last 2 versions"
   ]
 }

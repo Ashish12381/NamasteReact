@@ -1,0 +1,9 @@
+.nav_list ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.nav_list ul li{
+  cursor: pointer;
+}
